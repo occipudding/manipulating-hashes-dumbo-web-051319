@@ -10,7 +10,7 @@ def second_challenge
   }
   groceries.each do |k, v|
     v.each do |item|
-        binding.pry
+        vals << item
       end
     end
   vals
